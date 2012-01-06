@@ -714,3 +714,13 @@ a.ui-link-inherit {
 .ui-mobile-nosupport-boxshadow .ui-focus {
 	outline-width: 2px;
 }
+
+/* Workaround to override the global button color for the B swatch
+-----------------------------------------------------------------------------------------------------------*/
+.ui-btn-up-b .ui-icon {
+	background-color: #FD7D00;
+}
+
+.ui-btn-hover-b .ui-icon, .ui-btn-down-b .ui-icon {
+	background-color: #E36405;
+}
